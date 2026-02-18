@@ -1,9 +1,5 @@
 # Car_Rental_System
 
-Harika bir fikir! Car_Rental_System projen, JavaFX kullanarak geliştirdiğin, nesne yönelimli programlama (OOP) prensiplerine dayanan ve kullanıcı dostu bir arayüz sunduğun kapsamlı bir çalışma. Özellikle portföyün için bu projeyi İngilizce bir README ile sunman çok profesyonel duracaktır.
-
-İşte projen için hazırladığım taslak:
-
 Car Rental System
 A desktop application developed in Java using JavaFX for managing car rental operations. This project focuses on object-oriented design, efficient data handling, and a modular user interface to provide a seamless rental experience.
 
