@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyCarRentalSystem.ControllerOfCars">
+   <children>
+      <ScrollPane prefHeight="550.0" prefWidth="700.0">
+         <content>
+            <VBox prefHeight="550.0" prefWidth="700.0">
+               <children>
+                  <HBox prefHeight="20.0" prefWidth="700.0">
+                     <children>
+                        <ToolBar prefHeight="40.0" prefWidth="200.0">
+                          <items>
+                            <Button fx:id="backButton" mnemonicParsing="false" onAction="#goBack" prefHeight="20.0" prefWidth="20.0" />
+                          </items>
+                        </ToolBar>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="150.0" prefWidth="700.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/MercedesC2004Matic.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox prefHeight="150.0" prefWidth="300.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="Mercedes C200 4Matic">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="Gasoline | Automatic | 20000km">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="3000TL per day">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button fx:id="rent1" mnemonicParsing="false" onAction="#rent" prefHeight="125.0" prefWidth="150.0" text="Rent" />
+                              <Button fx:id="iButton1" mnemonicParsing="false" onAction="#info" prefWidth="150.0" text="i">
+                                 <font>
+                                    <Font name="Centaur" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="150.0" prefWidth="700.0">
+                     <children>
+                        <ImageView fitHeight="136.0" fitWidth="226.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/MercedesCLA200.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox prefHeight="150.0" prefWidth="300.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="Mercedes CLA200 AMG">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="Gasoline | Automatic | 12000km">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="5200TL per day">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button fx:id="rent2" mnemonicParsing="false" onAction="#rent2" prefHeight="125.0" prefWidth="150.0" text="Rent" />
+                              <Button fx:id="iButton2" mnemonicParsing="false" onAction="#info2" prefWidth="150.0" text="i">
+                                 <font>
+                                    <Font name="Centaur" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="150.0" prefWidth="700.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/MercedesS450.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox prefHeight="150.0" prefWidth="300.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="Mercedes S450d 4Matic L">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="Diesel | Automatic | 35000km">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="15000TL per day">
+                                 <font>
+                                    <Font name="Centaur" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button fx:id="rent3" mnemonicParsing="false" onAction="#rent3" prefHeight="125.0" prefWidth="150.0" text="Rent" />
+                              <Button fx:id="iButton3" mnemonicParsing="false" onAction="#info3" prefWidth="150.0" text="i">
+                                 <font>
+                                    <Font name="Centaur" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,167 @@
+
+style.css
+/* Text Fields */
+.text-field {
+    -fx-background-color: white;
+    -fx-background-radius: 20; /* Smoother edges */
+    -fx-border-color: #7f8c8d;
+    -fx-border-radius: 20;
+    -fx-padding: 8 15 8 15; /* Setting the padding */
+}
+
+/* Change the color when its clicked */
+.text-field:focused {
+    -fx-border-color: #3498db; /* Light blue */
+    -fx-effect: dropshadow(three-pass-box, rgba(52,152,219,0.3), 10, 0, 0, 0);
+}
+
+/* Enterance button */
+.button {
+    -fx-background-color: #2c3e50; /* Dark blue */
+    -fx-text-fill: white; /* Text color */
+    -fx-background-radius: 20;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 10 30 10 30; /* Make the button wider */
+}
+
+.button:hover {
+    -fx-background-color: #34495e; /* Lighter blue on hover */
+}
+
+/* style.css */
+
+.beyaz-arkaplan {
+    -fx-background-color: #ffffff; /* White */
+    /*  */
+    /* -fx-border-color: #e0e0e0; */
+    /* -fx-border-width: 0 1 0 0; */
+}
+
+/* Background */
+.root {
+    -fx-background-color: #f4f7f6;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* TilePane styles */
+.tile-pane {
+    -fx-padding: 20;
+    -fx-hgap: 20; /* Margins */
+    -fx-vgap: 20; /* Margins */
+}
+
+/* Brand buttons */
+.brand-card {
+    -fx-background-color: white;
+    -fx-background-radius: 15; /* Smoother edges */
+    -fx-border-radius: 15;
+    -fx-border-color: transparent;
+    
+    /* Depth */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    
+    -fx-cursor: hand; /*  */
+    -fx-alignment: CENTER;
+    -fx-content-display: TOP; /* Image is on the top */
+
+    -fx-pref-width: 220px;
+    -fx-pref-height: 160px;
+    
+    /* Image will be in the center of the button */
+    -fx-alignment: CENTER; 
+    
+    -fx-padding: 0; /* Paddings */
+
+}
+
+/* 3. Hover Effect */
+.brand-card:hover {
+    -fx-background-color: #ffffff;
+    /* -5 piksel on Y */
+    -fx-translate-y: -5; 
+    
+    /* Deeper shadowing */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 20, 0, 0, 10);
+    
+    /* Elegant blue */
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px;
+}
+
+/* Click effect */
+.brand-card:pressed {
+    -fx-translate-y: 0; /* Back to original position */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+    
+    /* Image will be in the center of the button */
+    -fx-alignment: CENTER;
+}
+
+/* Add New Brand Button*/
+.add-button {
+    -fx-background-color: #2c3e50; /* Dark blue */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+    -fx-cursor: hand;
+}
+
+.add-button:hover {
+    -fx-background-color: #34495e;
+    -fx-translate-y: -3;
+    -fx-effect: dropshadow(three-pass-box, rgba(44, 62, 80, 0.5), 15, 0, 0, 8);
+}
+
+/* HBox for every car */
+.car-item {
+    -fx-background-color: #ffffff; /* White background   */
+    -fx-background-radius: 15; /* Smooth edges */
+    -fx-border-radius: 15;
+    
+    
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 1px;
+
+    /* Some shadow */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 2);
+    
+    /* Padding */
+    -fx-padding: 15;
+}
+
+/* Frame is more visible */
+.car-item:hover {
+    -fx-border-color: #3498db; /* Blue frame */
+    -fx-effect: dropshadow(three-pass-box, rgba(52, 152, 219, 0.2), 15, 0, 0, 5);
+}
+
+/* Rent button */
+.rent-button {
+    -fx-background-color: #e74c3c; /* Red */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20; /* Rounded button */
+    -fx-cursor: hand;
+    
+    /*  */
+    -fx-min-width: 100px;
+    -fx-max-height: 40px;
+}
+
+.rent-button:hover {
+    -fx-background-color: #c0392b; /* Darker on hover */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+
+/* If the price label is used (Optional) */
+.price-label {
+    -fx-text-fill: #27ae60; /* Green color */
+    -fx-font-weight: bold;
+}

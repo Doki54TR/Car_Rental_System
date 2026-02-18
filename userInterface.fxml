@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="700.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyCarRentalSystem.ControllerOfUserInterface">
+   <children>
+      <TilePane fx:id="brandPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="680.0" stylesheets="@style.css">
+         <children>
+            <Label alignment="TOP_CENTER" prefHeight="25.0" prefWidth="750.0" text="CARS IN OUR GALLERY">
+               <font>
+                  <Font name="Centaur" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </TilePane>
+   </children>
+</VBox>
